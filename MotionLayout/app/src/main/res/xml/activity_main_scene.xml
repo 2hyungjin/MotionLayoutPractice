@@ -4,11 +4,11 @@
     xmlns:motion="http://schemas.android.com/apk/res-auto">
 
     <Transition
+        motion:autoTransition="animateToEnd"
         motion:constraintSetEnd="@+id/end"
         motion:constraintSetStart="@id/start"
         motion:duration="1000"
         motion:motionInterpolator="easeInOut"
-        motion:autoTransition="animateToEnd"
         motion:pathMotionArc="none"
         motion:layoutDuringTransition="ignoreRequest">
        <KeyFrameSet>
